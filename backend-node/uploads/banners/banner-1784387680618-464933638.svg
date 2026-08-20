@@ -1,0 +1,152 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#081120"></stop>
+            <stop offset="100%" stop-color="#152f6d"></stop>
+        </linearGradient>
+
+        <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#5b7cff"></stop>
+            <stop offset="100%" stop-color="#8b5cf6"></stop>
+        </linearGradient>
+
+        <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#10203e"></stop>
+            <stop offset="100%" stop-color="#0a1630"></stop>
+        </linearGradient>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="12" result="blur"></feGaussianBlur>
+            <feMerge>
+                <feMergeNode in="blur"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+
+    </defs>
+
+    <!-- Background -->
+
+    <rect width="1080" height="1920" fill="url(#bg)"></rect>
+
+    <circle cx="950" cy="180" r="220" fill="#6d5cff" opacity="0.15"></circle>
+    <circle cx="120" cy="1700" r="260" fill="#4f9bff" opacity="0.12"></circle>
+
+    <!-- Logo -->
+
+    <g transform="translate(80,100)">
+        <rect width="90" height="90" rx="22" fill="url(#accent)"></rect>
+        <text x="45" y="58" text-anchor="middle" font-family="Arial" font-size="42" font-weight="bold" fill="white">&lt;/&gt;</text>
+    </g>
+
+    <text x="200" y="155" font-family="Arial" font-size="68" font-weight="700" fill="white">
+        APIForge
+    </text>
+
+    <text x="200" y="205" font-family="Arial" font-size="24" fill="#C9D5FF">
+        Test Smarter. Document Better.
+    </text>
+
+    <!-- Headline -->
+
+    <text x="80" y="340" font-family="Arial" font-size="92" font-weight="700" fill="white">
+        BUILD APIs
+    </text>
+
+    <text x="80" y="435" font-family="Arial" font-size="92" font-weight="700" fill="#8EA8FF">
+        FASTER.
+    </text>
+
+    <text x="80" y="530" font-family="Arial" font-size="34" fill="#D9E3FF">
+        API testing, documentation and collaboration
+    </text>
+
+    <text x="80" y="575" font-family="Arial" font-size="34" fill="#D9E3FF">
+        designed for modern development teams.
+    </text>
+
+    <!-- Mock UI -->
+
+    <rect x="80" y="670" width="920" height="520" rx="34" fill="url(#card)" stroke="#5B7CFF" stroke-width="2"></rect>
+
+    <rect x="120" y="730" width="840" height="72" rx="16" fill="#1A2D58"></rect>
+
+    <text x="150" y="777" font-family="monospace" font-size="28" fill="#68F58C">
+        GET
+    </text>
+
+    <text x="250" y="777" font-family="monospace" font-size="28" fill="white">
+        https://api.company.com/users
+    </text>
+
+    <!-- Code -->
+
+    <text x="140" y="900" font-family="monospace" font-size="28" fill="#7AA8FF">
+{
+    </text>
+
+    <text x="170" y="950" font-family="monospace" font-size="28" fill="#8BE8FF">
+"status":
+    </text>
+
+    <text x="340" y="950" font-family="monospace" font-size="28" fill="#68F58C">
+"success",
+    </text>
+
+    <text x="170" y="1000" font-family="monospace" font-size="28" fill="#8BE8FF">
+"data":
+    </text>
+
+    <text x="300" y="1000" font-family="monospace" font-size="28" fill="#FFD580">
+[ ... ]
+    </text>
+
+    <text x="140" y="1050" font-family="monospace" font-size="28" fill="#7AA8FF">
+}
+    </text>
+
+    <!-- Features -->
+
+    <text x="80" y="1320" font-family="Arial" font-size="44" font-weight="700" fill="white">
+        Key Features
+    </text>
+
+    <text x="100" y="1405" font-family="Arial" font-size="30" fill="#DCE6FF">
+        • Automated API testing
+    </text>
+
+    <text x="100" y="1465" font-family="Arial" font-size="30" fill="#DCE6FF">
+        • Interactive documentation
+    </text>
+
+    <text x="100" y="1525" font-family="Arial" font-size="30" fill="#DCE6FF">
+        • Mock servers &amp; environments
+    </text>
+
+    <text x="100" y="1585" font-family="Arial" font-size="30" fill="#DCE6FF">
+        • Team collaboration tools
+    </text>
+
+    <text x="100" y="1645" font-family="Arial" font-size="30" fill="#DCE6FF">
+        • Enterprise-grade security
+    </text>
+
+    <!-- CTA -->
+
+    <rect x="250" y="1725" width="580" height="100" rx="24" fill="url(#accent)" filter="url(#glow)"></rect>
+
+    <text x="540" y="1790" text-anchor="middle" font-family="Arial" font-size="42" font-weight="700" fill="white">
+        TRY APIFORGE TODAY
+    </text>
+
+    <!-- Footer -->
+
+    <line x1="80" y1="1860" x2="1000" y2="1860" stroke="#3E4D7D"></line>
+
+    <text x="80" y="1905" font-family="Arial" font-size="28" fill="#C9D5FF">
+        Contact: apiforge@sw.com
+    </text>
+
+</svg>

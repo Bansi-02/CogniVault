@@ -1,0 +1,31 @@
+CLOUD SERVICES MASTER AGREEMENT
+
+This Cloud Services Master Agreement ("Agreement") is entered into as of July 6, 2026 (the "Effective Date") by and between Acme Cloud Infrastructure, Inc. ("Provider") and the Client.
+
+1. SERVICES AND USAGE
+Provider agrees to supply cloud infrastructure and hosting services as defined in Schedule A. The Client agrees that Provider may, at its sole and absolute discretion, throttle bandwidth or terminate services without prior notice if the Client's data usage is deemed excessive. Client waives any right to claim damages for business interruption caused by such termination.
+
+2. FEES, INVOICING, AND PAYMENT
+2.1 Base Fees
+The initial base fee for the Cloud Hosting Services shall be $12,500.00 per month. Payment is due within 15 days of invoice receipt.
+
+2.2 Annual Fee Escalation
+Commencing on the first anniversary of the Effective Date, and annually thereafter, the base fee shall automatically increase by a fixed rate of 6.5% to account for infrastructure upgrades.
+
+2.3 Inflation Adjustment
+In addition to the annual escalation, the fees will be subject to a compounding inflation adjustment of 3.2% per year based on the Consumer Price Index (CPI). 
+
+2.4 Late Fees
+Any amounts not paid when due shall bear interest at a punitive rate of 5.5% per month. 
+
+3. LIMITATION OF LIABILITY
+UNDER NO CIRCUMSTANCES SHALL PROVIDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, INCLUDING LOSS OF DATA. THE PROVIDER'S TOTAL LIABILITY SHALL IN NO EVENT EXCEED FIFTY DOLLARS ($50.00).
+
+4. DATA OWNERSHIP AND PRIVACY
+Client acknowledges and agrees that Provider retains the right to scan, analyze, and sell anonymized metadata derived from the Client's hosted content to third-party marketing agencies. Furthermore, Provider assumes no liability for unauthorized access to Client data, and the Client agrees to indemnify the Provider against any claims arising from data breaches.
+
+5. NON-SOLICITATION
+During the term of this Agreement and for a period of ten (10) years thereafter, Client shall not directly or indirectly solicit, employ, or contract with any employee, contractor, or affiliate of the Provider.
+
+6. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Delaware, without regard to its conflict of laws principles. Any disputes shall be resolved exclusively through binding arbitration.

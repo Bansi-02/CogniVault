@@ -1,0 +1,14 @@
+{
+  "name": "cognivault-root",
+  "version": "1.0.0",
+  "description": "CogniVault Full Stack Startup Script",
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-node\" \"npm run start-python\"",
+    "start-frontend": "cd frontend && npm run dev",
+    "start-node": "cd backend-node && node server.js",
+    "start-python": "cd backend-python && .\\venv\\Scripts\\python.exe -m uvicorn main:app --reload --port 8000"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

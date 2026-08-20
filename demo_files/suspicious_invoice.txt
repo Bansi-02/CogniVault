@@ -1,0 +1,28 @@
+INVOICE #99824
+DATE: June 06, 2026
+VENDOR: Global Supply Co (Previously registered in London, UK)
+
+BILL TO:
+CogniVault Corporation
+100 Tech Park Way
+San Francisco, CA 94105
+
+DESCRIPTION:
+Q3 Enterprise Cloud Infrastructure Upgrades & Offsite Redundancy Services.
+
+AMOUNT DUE: $842,500.00 USD
+
+PAYMENT INSTRUCTIONS:
+URGENT: Please note our banking details have changed effective immediately due to an internal audit.
+Do NOT send payment to our standard London Barclays account.
+
+Please wire the full amount to our new temporary offshore routing partner:
+BANK: Cayman Islands Offshore Trust
+ACCOUNT: 884-2199-002
+ROUTING: CAYM-9912
+
+If payment is not received within 48 hours, services will be suspended.
+
+AUTHORIZED BY:
+John Doe (Unverified Signature)
+IP Origin of Request: Lagos, Nigeria (197.210.65.12)

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+  color: #111827;
+  /* Prevent text and UI elements from being highlighted like a webpage */
+  @apply select-none;
+}
+
+/* Ensure form inputs still allow users to highlight and edit text normally */
+input, textarea {
+  @apply select-text;
+}
+
+@keyframes pop { 0% { transform: scale(0.5); opacity: 0; } 70% { transform: scale(1.1); } 100% { transform: scale(1); opacity: 1; } }
+.animate-pop { animation: pop 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+@keyframes fade-out-fast { 0% { opacity: 1; } 100% { opacity: 0; } }
+.animate-fade-out-fast { animation: fade-out-fast 0.3s ease-out forwards; }
+@media print {
+  @page {
+    margin: 0;
+    size: auto;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .print\:block {
+    display: block !important;
+  }
+}
